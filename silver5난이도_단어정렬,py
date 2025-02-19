@@ -1,0 +1,18 @@
+import sys
+
+sortedWord = []
+
+n = int(sys.stdin.readline().strip())
+
+for x in range(n):
+    word = sys.stdin.readline().strip()
+    sortedWord.append(word)
+
+sortedWord = list(set(sortedWord))
+sortedWord.sort()
+sortedWord.sort(key = len)
+
+for x in sortedWord:
+    print(x)
+
+
