@@ -3,7 +3,6 @@ package 코딩테스트연습;
 import java.util.Scanner;
 
 public class Silver3난이도체스판만들기 {
-
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int x = scan.nextInt();

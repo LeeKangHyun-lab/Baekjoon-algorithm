@@ -1,4 +1,5 @@
 package 코딩테스트연습;
+
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Arrays;
